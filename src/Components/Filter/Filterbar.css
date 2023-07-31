@@ -1,0 +1,73 @@
+/* Styling for the filter container */
+.filter-container {
+    position: relative; /* Position relative to enable child positioning */
+    margin: 20px; /* Margin around the filter container */
+    width: 75%; /* Set the width of the filter container */
+    display: inline-block; /* Display as an inline block */
+  }
+  
+  /* Styling for the filter button */
+  .filter-button {
+    background: transparent; /* Transparent background */
+    color: black; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding inside the button */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the filter icon span */
+  .filtericonspan {
+    max-width: 20px; /* Set maximum width */
+    max-height: 20px; /* Set maximum height */
+  }
+  
+  /* Styling for the filter icon image */
+  .filter-icon {
+    position: relative; /* Enable positioning */
+    width: 15px; /* Set width of the icon */
+    height: 13px; /* Set height of the icon */
+    top: 2px; /* Position from the top */
+    padding-right: 6px; /* Right padding for spacing */
+  }
+  
+  /* Styling for the inner filter container */
+  .filter-innercontainer {
+    display: flex; /* Use flexbox to arrange child elements horizontally */
+    flex-wrap: wrap; /* Allow child elements to wrap to a new line if needed */
+    justify-content: space-between; /* Evenly distribute child elements with equal space between them */
+  }
+  
+  /* Styling for the option container */
+  .option-container {
+    display: flex; /* Use flexbox to arrange child elements vertically */
+    flex-direction: column; /* Stack child elements vertically */
+    margin-right: 10px; /* Right margin for spacing between options */
+  }
+  
+  /* Styling for the main options gender */
+  .main-options-gender {
+    padding: 10px 30px; /* Padding inside the main gender options */
+    border: none; /* Remove border */
+  }
+  
+  /* Styling for the filter options container */
+  .filter-options-container {
+    display: flex; /* Use flexbox to arrange child elements horizontally */
+    flex-wrap: wrap; /* Allow child elements to wrap to a new line if needed */
+    justify-content: flex-start; /* Start alignment of options from the left */
+  }
+  
+  /* Styling for the individual options */
+  .options {
+    margin-right: 10px; /* Right margin for spacing between options */
+  }
+  
+  /* Media query for screens with a maximum width of 1024px */
+  @media (max-width: 1024px) {
+    .filter-container {
+      display: none; /* Hide the filter container on smaller screens */
+    }
+  }
+  

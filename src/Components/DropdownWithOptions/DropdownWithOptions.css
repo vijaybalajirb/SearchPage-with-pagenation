@@ -1,0 +1,100 @@
+/* Basic styles for the dropdown container */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 180px;
+  border-radius: 5px;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Style for the options grid */
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Style for each option item in the grid */
+.option-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-item:hover {
+  background-color: #e0e0e0;
+}
+
+/* Two-column grid */
+.options-grid-twoColumn {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.option-item-twoColumn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+  min-width: 130px;
+}
+
+.option-item-twoColumn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Four-column grid */
+.options-grid-fourColumn {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.option-item-fourColumn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  min-width: 50px;
+}
+
+.option-item-fourColumn:hover {
+  background-color: #e0e0e0;
+}

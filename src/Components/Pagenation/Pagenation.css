@@ -1,0 +1,50 @@
+/* CSS for PaginationControls component */
+.pagination-controls {
+    /* Center the pagination controls horizontally and align items vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Add margin at the top and bottom of the pagination controls */
+  }
+  
+  /* Styling for the buttons inside the pagination controls */
+  .pagination-controls button {
+    background-color: #007BFF; /* Blue background color for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none; /* Remove button borders */
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin: 0 5px; /* Add margin between buttons */
+    border-radius: 5px; /* Add rounded corners to buttons */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Styling for the container of page numbers */
+  .page-numbers {
+    display: flex; /* Display the page numbers horizontally */
+    align-items: center; /* Align page numbers vertically in the container */
+  }
+  
+  /* Styling for individual page number element */
+  .page-number {
+    margin: 0 5px; /* Add margin between page numbers */
+    padding: 5px 10px; /* Add padding to page numbers */
+    border-radius: 5px; /* Add rounded corners to page numbers */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Styling for the active page number */
+  .page-number.active {
+    background-color: #007BFF; /* Blue background color for the active page number */
+    color: #fff; /* White text color for the active page number */
+  }
+  
+  /* Media query for smaller screens (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .page-number {
+      margin: 0 5px; /* Adjust margin between page numbers */
+      padding: 5px 5px; /* Adjust padding of page numbers */
+      border-radius: 5px; /* Adjust rounded corners of page numbers */
+      cursor: pointer; /* Show pointer cursor on hover */
+    }
+  }
+  

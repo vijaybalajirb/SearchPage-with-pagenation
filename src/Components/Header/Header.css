@@ -1,0 +1,11 @@
+.main-logo {
+    height: 40px;
+    width: 80px;
+    margin-left: 5%;
+}
+
+.main-header {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(233 233 233);
+}

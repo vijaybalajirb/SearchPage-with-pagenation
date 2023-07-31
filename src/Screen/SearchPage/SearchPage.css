@@ -1,0 +1,36 @@
+/* Basic styles for the search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the search input */
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /* Style for the search button */
+  .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Adjust the button style on hover */
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-products-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
